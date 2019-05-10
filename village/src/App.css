@@ -1,3 +1,41 @@
 .App {
   text-align: center;
+  
+}
+
+.App .nav-links{
+  
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+
+.App .nav-links :first-child{
+ 
+   color: white;
+   margin-left: 1%;
+   text-decoration: none;
+   font-size: 2rem;
+}
+
+.App .nav-links :last-child{
+  font-size: 2rem;
+   color: white;
+   margin-right: 1%;
+   text-decoration: none;
+}
+
+.App .nav-links :nth-child(2){
+   font-size: 2rem;
+   color: white;
+   margin-right: 1%;
+   text-decoration: none;
 }
