@@ -1,0 +1,30 @@
+.SmurfForm form{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    margin: 0 auto;
+    height: 180px;
+    border: solid white 1px;
+    border-radius: 10px;
+    background-color: black;
+    
+    
+}
+
+.SmurfForm form input{
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.SmurfForm form button{
+    border-radius: 10px;
+    height: 40px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

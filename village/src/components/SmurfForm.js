@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './smurf.css'
 class SmurfForm extends Component {
   constructor(props) {
     super(props);
