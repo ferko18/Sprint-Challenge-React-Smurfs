@@ -1,0 +1,59 @@
+.SmurfForm form{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    margin: 0 auto;
+    height: 180px;
+    border: solid white 1px;
+    border-radius: 10px;
+    background-color: black;
+    
+    
+}
+
+.SmurfForm form input{
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.SmurfForm form button{
+    border-radius: 10px;
+    height: 40px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+
+}
+
+.Smurfs h1{
+    color: white;
+    
+}
+
+.Smurfs ul{
+    border: solid white 3px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+    padding-left: 0px;
+    border-radius: 10px;
+}
+
+.Smurf{
+    
+    border: 1px solid white;
+    width: 31%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:12px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
