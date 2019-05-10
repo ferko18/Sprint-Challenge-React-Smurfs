@@ -25,6 +25,7 @@ class SmurfForm extends Component {
         height: ""
       }
     });
+    
   };
 
   handleInputChange = event => {

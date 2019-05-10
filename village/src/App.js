@@ -35,6 +35,7 @@ class App extends Component {
         this.setState({
           smurfs: res.data
         });
+        this.props.history.push('/Smurfs')
       })
       .catch(err => {
         console.log(err);
