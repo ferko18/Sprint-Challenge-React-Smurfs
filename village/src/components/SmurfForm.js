@@ -15,7 +15,7 @@ class SmurfForm extends Component {
   handleSubmit = event => {
     event.preventDefault();
 
-    // add code to create the smurf using the api
+    // add code to create the smurf using the api DUSTIN! You told us to place the function that changes the state in the component where the state is managed!!!!
     this.props.addSmurf(event, this.state.smurf);
 
     this.setState({
